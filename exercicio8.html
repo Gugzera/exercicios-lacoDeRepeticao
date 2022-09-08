@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fatorial com for</title>
+</head>
+<style>
+    body{
+        background-color: rgb(111, 153, 167);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    h2{
+        color: rgb(0, 0, 0);
+    }
+    
+</style>
+<body>
+    <h2>fatorial com o laço For</h2>
+    <script>
+       let fatoriado = parseInt(prompt("Informe o número que sera calculado seu fatorial"))
+       let resultado = 1;
+
+       for(i=fatoriado;i>1;i--){
+           resultado *=i;
+       }
+       document.write("o fatorial de " + fatoriado + " é: " + resultado);
+    </script>
+</body>
+</html>

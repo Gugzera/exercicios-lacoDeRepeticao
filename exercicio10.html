@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 a 100 pares</title>
+</head>
+<style>
+    body{
+        background-color: lightblue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    hr{        
+        width: 8%;
+    } 
+    input{
+        padding: 10px;
+        border-radius: 2px;
+        color: purple;
+        background-color: lightcoral;
+    }
+</style>
+<body >
+    <h2>10 a 100 - exercicio 10</h2>
+    <input type="button" value="Clique para exibir os numeros impares de 10 até 100" onclick="numImpar()">
+    <input type="button" value="volatr" onclick="numImpar()">
+
+
+    <script>
+        let num1;
+
+    function numImpar(){
+        for(num1=11;num1<=100;num1+=2){
+            document.write("<br><hr>" + num1);
+
+        }
+    }
+    </script>
+</body>
+</html>
